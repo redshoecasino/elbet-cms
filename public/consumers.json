@@ -1,0 +1,20 @@
+{
+  "/content/blog/loose-cannon.md": [
+    {
+      "file": "/packages/loose-cannon/src/loose-cannon.ts",
+      "details": "Demonstrates use of Loose Cannon"
+    }    
+  ],
+    "/content/blog/pirate-boom.md": [
+      {
+        "file": "/packages/pirate-boom/src/pirate-boom.ts",
+        "details": "Demonstrates use of Pirate Boom"
+      }    
+    ],
+      "/content/blog/playboy-gold.md": [
+        {
+          "file": "/packages/playboy-gold/src/playboy-gold.ts",
+          "details": "Demonstrates use of Playboy Gold"
+        }
+      ]
+}

@@ -5,8 +5,7 @@ ssl/local-dev.key
 ssl/README.txt
 
 #tmp
-public/*
-public/el-bet/video/*
+public/el-bet/*
 
 # build output
 dist
