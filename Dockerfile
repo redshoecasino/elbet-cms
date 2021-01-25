@@ -14,11 +14,18 @@ COPY [ ".env-ci", "package.json", "yarn.lock", "./" ]
 RUN yarn install
 ARG BASE_REPO_FULL_NAME
 ARG GITHUB_CLIENT_ID
+ARG GITHUB_CLIENT_SECRET
+ARG SIGNING_KEY
+ARG BASE_BRANCH
+
 COPY . .
+
 RUN yarn deploy
+
 EXPOSE 4200
 EXPOSE 4201
 EXPOSE 8080
 EXPOSE 8081
+
 ENTRYPOINT ["yarn"]
 CMD ["develop"]
