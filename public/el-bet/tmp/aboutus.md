@@ -1,0 +1,4 @@
+WHO WE ARE
+Welcome to El Bet! We are a group of gaming fans with a mission to find the top trending slots of today and put them on your screen! We know the kind of things you want and like because we like them too, and we make every effort to give it to you exactly how you want it.
+Our goal is simple. We take the entire experience, from depositing to playing to withdrawing winnings and ask ourselves how it can be done better. We are constantly improving and upgrading, and we are always on the lookout for the latest games that are worthy of your attention.
+If you feel like there’s something we’ve missed, or you have a great idea, tell us! We’re always on the lookout for a way to make your gaming experience the best it can be!

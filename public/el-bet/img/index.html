@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+      <style>
+        body {
+          background-color: black;
+          color: silver;
+        }
+
+        .background {
+            color: #999999;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -100;
+            background-image: url("black-waves-background.jpg");
+            background-position:center; 
+            background-repeat:no-repeat;
+            background-size:cover; 
+            filter: url("#turbulence");
+        }
+      </style>
+  </head>
+  <body>
+    <div class="background"></div>
+    <h1>bla</h1>
+  </body>
+    <svg>
+        <filter id="turbulence" x="0" y="0" width="100%" height="100%">
+        <feTurbulence id="sea-filter" numOctaves="3" seed="2" baseFrequency="0.02 0.05"></feTurbulence>
+        <feDisplacementMap scale="20" in="SourceGraphic"></feDisplacementMap>
+        <animate xlink:href="#sea-filter" attributeName="baseFrequency" dur="60s" 
+        keyTimes="0;0.5;1" values="0.02 0.06;0.04 0.08;0.02 0.06" repeatCount="indefinite"/>
+        </filter>
+    </svg>
+</html>
