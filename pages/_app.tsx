@@ -112,24 +112,7 @@ const MainLayout = ({ Component, pageProps }) => {
             <link rel="shortcut icon" href="/favicon/favicon.ico" />
             <meta name="theme-color" content="#E6FAF8" />
 
-            <script src="https://component.socialhandicap.com/signup-es2015.js" type="module"></script>
-            <script src="https://component.socialhandicap.com/signup-es5.js"></script>
 
-            <script src="https://microgaming.socialhandicap.com/microgaming-webcomponent.js"></script>
-            <link rel="stylesheet" href="https://microgaming.socialhandicap.com/styles.css"></link>
-{/**/}
-{/* 
-            <script src="https://openwisp2.socialhandicap.com:4200/runtime.js" type="module"></script>
-            <script src="https://openwisp2.socialhandicap.com:4200/polyfills.js" type="module"></script>
-            <script src="https://openwisp2.socialhandicap.com:4200/vendor.js" type="module"></script>
-            <script src="https://openwisp2.socialhandicap.com:4200/main.js" type="module"></script>
-*/}
-
-{/*            
-            <script src="http://localhost:8080/snake-web-component.js"></script>
-            <script src="https://c0operative.gitlab.io/frontend/templates/angular-minimal/snake-web-component.js"></script> 
-            <script src="https://c0operative.gitlab.io/frontend/templates/angular-starter/element-webcomponent.js"></script>
-*/}
 
           </Head>
           <GlobalStyle />
@@ -142,10 +125,13 @@ const MainLayout = ({ Component, pageProps }) => {
             <animate xlinkHref="#sea-filter" attributeName="baseFrequency" dur="60s" 
             keyTimes="0;0.5;1" values="0.02 0.06;0.04 0.08;0.02 0.06" repeatCount="indefinite"/>
             </filter>
-        </svg>
-{/*
-        <script src="http://localhost:8080/element-webcomponent.js" charSet="utf-8"></script>
-*/}
+          </svg>
+          <script src="https://component.binarysports.com/signup-es2015.js" type="module"></script>
+          <script src="https://component.binarysports.com/signup-es5.js"></script>
+
+          <script src="https://microgaming.binarysports.com/microgaming-webcomponent.js"></script>
+          <link rel="stylesheet" href="https://microgaming.binarysports.com/styles.css"></link>
+        
         </TinacmsGithubProvider>
       </ModalProvider>
     </TinaProvider>
