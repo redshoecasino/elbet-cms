@@ -1,0 +1,11 @@
+{
+  "title": "Privacy Overview",
+  "steps": [
+    {
+      "title": "Privacy Overview",
+      "id": "/guides/policy/privacy/overview",
+      "slug": "/guides/policy/privacy/overview",
+      "data": "./overview.md"
+    }
+  ]
+}

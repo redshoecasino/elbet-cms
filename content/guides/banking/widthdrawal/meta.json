@@ -1,0 +1,17 @@
+{
+  "title": "Banking Widthdrawal Overview",
+  "steps": [
+    {
+      "title": "Banking Widthdrawal Overview",
+      "id": "/guides/banking/widthdrawal/overview",
+      "slug": "/guides/banking/widthdrawal/overview",
+      "data": "./overview.md"
+    },
+    {
+      "title": "Wire Transfer",
+      "id": "/guides/banking/widthdrawal/wire-transfer",
+      "slug": "/guides/banking/widthdrawal/wire-transfer",
+      "data": "./wire-transfer.md"
+    }
+  ]
+}

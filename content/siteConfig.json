@@ -1,0 +1,15 @@
+{
+  "title": "El Bet",
+  "sidebarTitle": "El Bet",
+  "seoDefaultTitle": "El Bet Pirate Casino",
+  "description": "El Bet is an online casino with a pirate theme",
+  "siteUrl": "https://wwww.redshoecasino.com/",
+  "roadmapUrl": "https://github.com/redshoecasino/redshoe-tinacms/blob/master/ROADMAP.md",
+  "licenseUrl": "https://github.com/redshoecasino/redshoe-tinacms/blob/master/LICENSE",
+  "keywords": "casino, slots, poker, keno",
+  "social": {
+    "twitterHandle": "@elbet",
+    "twitter": "https://twitter.com/elbet",
+    "forum": "https://www.redshoecasino.com/forum"
+  }
+}

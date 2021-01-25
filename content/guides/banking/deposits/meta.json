@@ -1,0 +1,17 @@
+{
+  "title": "Banking Deposits Overview",
+  "steps": [
+    {
+      "title": "Banking Deposits Overview",
+      "id": "/guides/banking/deposits/overview",
+      "slug": "/guides/banking/deposits/overview",
+      "data": "./overview.md"
+    },
+    {
+      "title": "Wire Transfer",
+      "id": "/guides/banking/deposits/wire-transfer",
+      "slug": "/guides/banking/deposits/wire-transfer",
+      "data": "./wire-transfer.md"
+    }
+  ]
+}

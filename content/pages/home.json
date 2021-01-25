@@ -1,0 +1,46 @@
+{
+  "title": "Home",
+  "headline": "El Bet",
+  "hero_video": "boom-pirates",
+  "hero_alt": "boom-pirates Video",
+  "three_points": [
+    {
+      "_template": "selling_point",
+      "main": "Progressive Jackpot Network",
+      "supporting": "Our progressive jackpot network has paid out over €1.1 billion* in prizes to date, and features the iconic Mega Moolah slot."
+    },
+    {
+      "_template": "selling_point",
+      "main": "Branded games",
+      "supporting": "Game of Thrones™\nJurassic World™\n Lara Croft® \nTemples and Tombs™"
+    },
+    {
+      "_template": "selling_point",
+      "main": "800+ Casino Games",
+      "supporting": "New game releases every month.\nBranded games include Jurassic World™ and Game of Thrones™"
+    }
+  ],
+  "setup": {
+    "headline": "Find your Tresure",
+    "steps": [
+      {
+        "_template": "setup_point",
+        "step": "Install and configure Tina plugins"
+      },
+      {
+        "_template": "setup_point",
+        "step": "Wrap and export your templates with Tina components specific to your data"
+      },
+      {
+        "_template": "setup_point",
+        "step": "Customize and define the content fields by passing an options argument"
+      },
+      {
+        "_template": "setup_point",
+        "step": "Open the sidebar 🤩, edit your site and watch the content updating in real-time"
+      }
+    ],
+    "code_ex": "/img/terminal.png"
+  },
+  "description": "So cool"
+}

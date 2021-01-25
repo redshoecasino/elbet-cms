@@ -1,0 +1,33 @@
+[
+  {
+    "id": "docs",
+    "label": "Games",
+    "href": "/docs",
+    "external": false
+  },
+  {
+    "id": "guides",
+    "label": "Guides",
+    "href": "/guides",
+    "external": false
+  },
+  {
+    "id": "blog",
+    "label": "Blog",
+    "href": "/blog",
+    "external": false
+  },
+  {
+    "id": "about",
+    "label": "About",
+    "href": "/about",
+    "external": false
+  }
+  ,
+  {
+    "id": "affiliate",
+    "label": "Affiliate",
+    "href": "/affiliate",
+    "external": false
+  }
+]

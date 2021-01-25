@@ -1,0 +1,37 @@
+{
+  "title": "Community",
+  "headline": "Join the club.",
+  "description": "Join the El Bet pirate club.",
+  "gif": {
+    "src": "/img/rico-replacement.jpg",
+    "alt": "Join the pirate club"
+  },
+  "supporting_headline": "El Bet an honest casino for pirates",
+  "supporting_body": "El Bet has hundereds of great games for a pirates and other rouges.",
+  "default": {
+    "title": "",
+    "headline": "Join the pirate club",
+    "gif": {
+      "src": "/img/rico-replacement.jpg",
+      "alt": "Join the pirate club"
+    },
+    "supporting_headline": "El Bet an honest casino for pirates and other rouges.",
+    "supporting_body": "El Bet has hundereds of great games for a pirates and other rouges.",
+    "default": {
+      "title": "",
+      "headline": "Join the pirate club",
+      "gif": {
+        "src": "/img/rico-replacement.jpg",
+        "alt": "Join the pirate club"
+      },
+      "supporting_headline": "El Bet an honest casino for pirates and other rouges.",
+      "supporting_body": "El Bet has hundereds of great games for a pirates and other rouges."  
+    }
+  },
+  "newsletter_header": "Pirate Newsletter ✌️",
+  "newsletter_cta": "Arr we be a plundering.",
+  "img": {
+    "src": "/img/rico-replacement.jpg",
+    "alt": "Join the pirate club"
+  }
+}

@@ -1,0 +1,158 @@
+[
+  {
+    "id": "casino",
+    "title": "casino",
+    "items": [
+      {
+        "title": "Slots",
+        "id": "slots",
+        "slug": "/docs/casino/slots",
+        "items": [
+          {
+            "id": "/docs/casino/slots/amazing-aztecs",
+            "slug": "/docs/casino/slots/amazing-aztecs",
+            "title": "amazing-aztecs"
+          },
+          {
+            "id": "/docs/casino/slots/halloween",
+            "slug": "/docs/casino/slots/halloween",
+            "title": "halloween"
+          },
+          {
+            "id": "/docs/casino/slots/hitman",
+            "slug": "/docs/casino/slots/hitman",
+            "title": "hitman"
+          },
+          {
+            "id": "/docs/casino/slots/hot-as-hades",
+            "slug": "/docs/casino/slots/hot-as-hades",
+            "title": "hot-as-hades"
+          },
+          {
+            "id": "/docs/casino/slots/loose-cannon",
+            "slug": "/docs/casino/slots/loose-cannon",
+            "title": "loose-cannon"
+          },
+          {
+            "id": "/docs/casino/slots/lucha-legends",
+            "slug": "/docs/casino/slots/lucha-legends",
+            "title": "lucha-legends"
+          },
+          {
+            "id": "/docs/casino/slots/pirate-boom",
+            "slug": "/docs/casino/slots/pirate-boom",
+            "title": "pirate-boom"
+          },
+          {
+            "id": "/docs/casino/slots/playboy-gold",
+            "slug": "/docs/casino/slots/playboy-gold",
+            "title": "playboy-gold"
+          },
+          {
+            "id": "/docs/casino/slots/real-baccarat",
+            "slug": "/docs/casino/slots/real-baccarat",
+            "title": "real-baccarat"
+          },
+          {
+            "id": "/docs/casino/slots/relic-seekers",
+            "slug": "/docs/casino/slots/relic-seekers",
+            "title": "relic-seekers"
+          },
+          {
+            "id": "/docs/casino/slots/robbin-hood",
+            "slug": "/docs/casino/slots/robbin-hood",
+            "title": "robbin-hood"
+          },  
+          {
+            "id": "/docs/casino/slots/showdown-saloon",
+            "slug": "/docs/casino/slots/showdown-saloon",
+            "title": "showdown-saloon"
+          },
+          {
+            "id": "/docs/casino/slots/tikki-vikings",
+            "slug": "tikki-vikings",
+            "title": "tikki-vikings"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Guides",
+    "id": "guides",
+    "items": [
+      {
+        "id": "/guides",
+        "slug": "/guides",
+        "title": "Overview"
+      },
+      {
+        "id": "/guides#banking",
+        "href": "/guides#banking",
+        "title": "Banking",
+        "items": [
+          {
+            "id": "/guides/banking/deposits/overview",
+            "slug": "/guides/banking/deposits/overview",
+            "title": "Deposits"
+          },
+          {
+            "id": "/guides/banking/widthdrawal/overview",
+            "slug": "/guides/banking/widthdrawal/overview",
+            "title": "Widthdrawal"
+          }
+        ]
+      },
+      {
+        "id": "/guides#games",
+        "href": "/guides#games",
+        "title": "Games",
+        "items": [
+          {
+            "id": "/guides/games/general/overview",
+            "slug": "/guides/games/general/overview",
+            "title": "Games Overview"
+          }
+        ]
+      },
+      {
+        "id": "/guides#policy",
+        "href": "/guides#policy",
+        "title": "Policy",
+        "items": [
+          {
+            "id": "/guides/policy/fair-gaming/overview",
+            "slug": "/guides/policy/fair-gaming/overview",
+            "title": "Fair Gaming Overview"
+          },
+          {
+            "id": "/guides/policy/privacy/overview",
+            "slug": "/guides/policy/privacy/overview",
+            "title": "Privacy Overview"
+          },
+          {
+            "id": "/guides/policy/responsible-gaming/overview",
+            "slug": "/guides/policy/responsible-gaming/overview",
+            "title": "Responsible Gaming Overview"
+          },
+          {
+            "id": "/guides/policy/security/overview",
+            "slug": "/guides/policy/security/overview",
+            "title": "Security Overview"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Release Notes",
+    "id": "releases",
+    "items": [
+      {
+        "id": "/docs/releases",
+        "href": "/docs/releases",
+        "title": "All Releases"
+      }
+    ]
+  }
+]

@@ -1,0 +1,44 @@
+@font-face {
+  font-family: 'black-pearl';
+  font-style: normal;
+  font-weight: regular;
+  font-display: fallback;
+  src: url('../../public/el-bet/fonts/BlackPearl.woff2') format('woff2'),
+    url('../../public/el-bet/fonts/BlackPearl.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'pirates-pw';
+  font-style: normal;
+  font-weight: regular;
+  font-display: fallback;
+  src: url('../../public/el-bet/fonts/PiratesPw.woff2') format('woff2'),
+    url('../../public/el-bet/fonts/PiratesPw.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'sketch-bones';
+  font-style: normal;
+  font-weight: regular;
+  font-display: fallback;
+  src: url('../../public/el-bet/fonts/SketchBones.woff2') format('woff2'),
+    url('../../public/el-bet/fonts/SketchBones.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'treadmd';
+  font-style: normal;
+  font-weight: regular;
+  font-display: fallback;
+  src: url('../../public/el-bet/fonts/Treamd.woff2') format('woff2'),
+    url('../../public/el-bet/fonts/Treamd.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'treasure-map';
+  font-style: normal;
+  font-weight: regular;
+  font-display: fallback;
+  src: url('../../public/el-bet/fonts/TreasureMap.woff2') format('woff2'),
+    url('../../public/el-bet/fonts/TreasureMap.woff') format('woff');
+}

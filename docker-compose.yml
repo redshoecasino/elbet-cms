@@ -1,0 +1,15 @@
+version: '3.3'
+
+services:
+  tinacms:
+    image: ${CI_REGISTRY_IMAGE}
+    env_file: .env-ci
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        CI_REGISTRY_IMAGE: ${CI_REGISTRY_IMAGE}
+        CI_PROJECT_NAME: ${CI_PROJECT_NAME}
+        GITHUB_CLIENT_ID: ${GITHUB_CLIENT_ID}
+        BASE_REPO_FULL_NAME: ${BASE_REPO_FULL_NAME}
+    entrypoint: ["yarn", "start"]

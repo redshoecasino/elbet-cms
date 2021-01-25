@@ -1,0 +1,11 @@
+{
+  "title": "Terms Overview",
+  "steps": [
+    {
+      "title": "General Terms Overview",
+      "id": "/guides/terms/general/overview",
+      "slug": "/guides/terms/general/overview",
+      "data": "./overview.md"
+    }
+  ]
+}

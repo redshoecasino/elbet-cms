@@ -1,0 +1,34 @@
+version: '3.3'
+
+services:
+  gatsby:
+    image: ${CI_REGISTRY_IMAGE}
+    env_file: .env
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+      args: 
+        CI_JOB_TOKEN: ${CI_JOB_TOKEN}
+        CI_REGISTRY_IMAGE: ${CI_REGISTRY_IMAGE}
+        CI_PROJECT_NAME: ${CI_PROJECT_NAME}
+    volumes:
+      - ${PWD}/.env:/opt/.env
+      - ${PWD}/.git:/opt/.git
+      - ${PWD}/.storybook:/opt/.storybook
+      - ${PWD}/src:/opt/src
+      - ${PWD}/content:/opt/content
+      - ${PWD}/public:/opt/public
+      - ${PWD}/package.json:/opt/package.json
+      - ${PWD}/package-lock.json:/opt/package-lock.json
+      - ${PWD}/gatsby-browser.js:/opt/gatsby-browser.js
+      - ${PWD}/gatsby-config.js:/opt/gatsby-config.js
+      - ${PWD}/gatsby-node.js:/opt/gatsby-node.js
+      - ${PWD}/gatsby-ssr.js:/opt/gatsby-ssr.js
+#      - ~/.ssh/gitlab:/root/.ssh/id_rsa
+#      - ~/.ssh/gitlab.pub:/root/.ssh/id_rsa.pub
+    ports:
+      - 9000:9000
+      - 8080:8080
+      - 8081:8081
+      - 4000:4000
+    command: ["npm", "start"]

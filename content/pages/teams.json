@@ -1,0 +1,35 @@
+{
+  "title": "Affiliates",
+  "description": "(description) The power of our affiliates program for the pulishers is acess and insight.",
+  "headline": "(headline) An affiliates program with acess and insight",
+  "supporting_points": [
+    {
+      "_template": "point",
+      "point": "Payouts"
+    },
+    {
+      "_template": "point",
+      "point": "Media/conent supports"
+    },
+    {
+      "_template": "point",
+      "point": "Dashboard to analyis your traffic vs our converting profiles"
+    }
+  ],
+  "default": {
+    "title": "",
+    "headline": "Join the affiliates program",
+    "gif": {
+      "src": "/img/rico-replacement.jpg",
+      "alt": "Join the affiliates program"
+    },
+    "supporting_headline": "default (supporting_headline): An affiliates program with acess and insight.",
+    "supporting_body": "default (supporting_body): The power of our affiliates program for the pulishers is acess and insight."
+  },
+  "gif": {
+    "src": "/img/rico-replacement.jpg",
+    "alt": "Join the affiliates program"
+  },
+  "supporting_headline": "default (supporting_headline): An affiliates program with acess and insight.",
+  "supporting_body": "default (supporting_body): The power of our affiliates program for the pulishers is acess and insight."
+}

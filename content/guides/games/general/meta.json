@@ -1,0 +1,11 @@
+{
+  "title": "Games Overview",
+  "steps": [
+    {
+      "title": "Games Terms Overview",
+      "id": "/guides/games/general/overview",
+      "slug": "/guides/games/general/overview",
+      "data": "./overview.md"
+    }
+  ]
+}

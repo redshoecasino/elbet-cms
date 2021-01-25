@@ -1,0 +1,19 @@
+ARG CI_REGISTRY_IMAGE
+FROM ${CI_REGISTRY_IMAGE}
+
+ARG CI_REGISTRY_IMAGE
+ARG CI_PROJECT_NAME
+ARG CI_JOB_TOKEN
+
+#RUN ssh-keygen -t ed25519 -f ~/.ssh/id_rsa -q -N ""
+RUN chmod 0600 ~/.ssh/id_rsa
+RUN echo "Editing below this line will create a new key"
+#RUN ssh-agent bash -c "cat ~/.ssh/id_rsa| ssh-add -"
+RUN ssh-keyscan gitlab.com >> ~/.ssh/known_hosts
+RUN echo "******************\nAdd to: https://gitlab.com/-/profile/keys/" && cat ~/.ssh/id_rsa.pub && echo "\n******************\n"
+RUN echo '[url "git@gitlab.com:"]  insteadOf = https://gitlab.com/' >> ~/.gitconfig
+RUN export PUBLIC_KEY=$(cat ~/.ssh/id_rsa.pub); export EXPIRES_AT=$(date -u +"%Y-%m-%dT%H:%M:%S.%3NZ" -d "+10 days"); echo '{ "title":"'"${CI_PROJECT_NAME}"'", "key":"'"$PUBLIC_KEY"'", "expires_at":"'"$EXPIRES_AT"'"}'
+RUN export PUBLIC_KEY=$(cat ~/.ssh/id_rsa.pub); export EXPIRES_AT=$(date -u +"%Y-%m-%dT%H:%M:%S.%3NZ" -d "+10 days"); curl --location --request POST 'https://gitlab.com/api/v4/user/keys' \
+--header 'PRIVATE-TOKEN: '"${CI_JOB_TOKEN}"'' \
+--header 'Content-Type: application/json' \
+--data-raw '{ "title":"'"${CI_PROJECT_NAME}"'", "key":"'"$PUBLIC_KEY"'", "expires_at":"'"$EXPIRES_AT"'"}'
