@@ -22,12 +22,14 @@ docker-job:
   script:
     - docker-compose build
     - docker-compose push
-    - docker cp $(docker create --rm "$CI_REGISTRY_IMAGE"):/app/node_modules node_modules
+    - docker cp $(docker create --rm "$CI_REGISTRY_IMAGE"):/app/out public
+    #- docker cp $(docker create --rm "$CI_REGISTRY_IMAGE"):/app/node_modules node_modules
   artifacts:
     paths:
-      - node_modules/
-      - .cache/
-      - .next/
+      - public/
+#      - node_modules/
+#      - .cache/
+#      - .next/
   only:
     refs:
       - master
