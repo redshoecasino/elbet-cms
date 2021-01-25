@@ -32,6 +32,8 @@ docker-job:
 
 pages:
   stage: build
+  tags:
+    - amd64
   script:
     - mv public/ static/; mv out/ public/
   variables:
