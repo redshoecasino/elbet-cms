@@ -1,9 +1,9 @@
 image: $CI_REGISTRY_IMAGE
 stages:
   - docker-stage
-  - yarn-stage
+#  - yarn-stage
 #  - test
-  - build
+#  - build
 
 docker-job:
   image: registry.gitlab.com/replatf0rm/docker-compose-ci:latest
@@ -38,24 +38,24 @@ docker-job:
       - ".env-ci"
       - "yarn.lock"
 
-yarn-job:
-  stage: yarn-stage
-  variables:
-    GIT_DEPTH: 1
-    CI: "true"
-  tags:
-    - amd64
-  script:
-   - yarn install
-  cache:
-    paths:
-      - node_modules
-  only:
-    refs:
-      - tags
-    changes:
-      - "yarn.lock"
-      - ".gitlab-ci.yml"
+#yarn-job:
+#  stage: yarn-stage
+#  variables:
+#    GIT_DEPTH: 1
+#    CI: "true"
+#  tags:
+#    - amd64
+#  script:
+#   - yarn install
+#  cache:
+#    paths:
+#      - node_modules
+#  only:
+#    refs:
+#      - tags
+#    changes:
+#      - "yarn.lock"
+#      - ".gitlab-ci.yml"
 
 # test:
 #   stage: test
@@ -75,27 +75,27 @@ yarn-job:
 #     refs:
 #       - master
 
-pages:
-  stage: build
-  tags:
-    - amd64
-  variables:
-    GIT_DEPTH: 1
-    CI: "true"
-  script:
-    - yarn deploy
-    - mv public/ static/; mv out/ public/
-  cache:
-    key: $CI_PROJECT_NAME
-    policy: pull-push
-    paths:
-      - .next/
-      - node_modules/
-  artifacts:
-    paths:
-      - public/
-  only:
-    refs:
-      - tags
-      - master
+#pages:
+#  stage: build
+#  tags:
+#    - amd64
+#  variables:
+#    GIT_DEPTH: 1
+#    CI: "true"
+#  script:
+#    - yarn deploy
+#    - mv public/ static/; mv out/ public/
+#  cache:
+#    key: $CI_PROJECT_NAME
+#    policy: pull-push
+#    paths:
+#      - .next/
+#      - node_modules/
+#  artifacts:
+#    paths:
+#      - public/
+#  only:
+#    refs:
+#      - tags
+#      - master
 
