@@ -109,12 +109,6 @@ const HomePage = (props: any) => {
   return (
     
     <InlineGithubForm form={form}>
-        
-
-
-
-    <script src="https://microgaming.socialhandicap.com/microgaming-webcomponent.js" async></script>
-    <link rel="stylesheet" href="https://microgaming.socialhandicap.com/styles.css"></link>
       <Layout>
         <DefaultSeo titleTemplate={formData.title + ' | %s'} />
         <Hero overlap narrow>
