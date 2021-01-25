@@ -20,7 +20,7 @@
     "!ia32"
   ],
   "scripts": {
-    "dev-next": "npx next dev --hostname 0.0.0.0 --port 4201",
+    "dev-next": "next dev --hostname 0.0.0.0 --port 4201",
     "dev": "yarn dev-next",
     "develop": "yarn dev-next",
     "build": "next build",
