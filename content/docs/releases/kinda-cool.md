@@ -1,10 +1,10 @@
 ---
-title: Kinda cool Stuff
+title: Fuck this cool Stuff
 date: '2021-01-25T21:47:52-05:00'
 author: Joe Smith
-last_edited: '2021-01-26T02:49:04.237Z'
+last_edited: '2021-01-26T02:51:05.661Z'
 ---
-* Make something neat
+* Make my neat thing neater
 * What was accomplished in the last week?
 * What's next for the core team?
 * Link to any relevant projects
