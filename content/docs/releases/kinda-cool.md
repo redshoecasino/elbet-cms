@@ -1,16 +1,15 @@
 ---
-title: Kinda cool
+title: Kinda cool Stuff
 date: '2021-01-25T21:47:52-05:00'
 author: Joe Smith
+last_edited: '2021-01-26T02:49:04.237Z'
 ---
-
-
-* What is the core team's current objectives?
+* Make something neat
 * What was accomplished in the last week?
 * What's next for the core team?
 * Link to any relevant projects
 
-## Changes
+## Changes some stuff
 
 ### New Packages
 
@@ -26,10 +25,10 @@ Thanks to everyone for contributing!
 
 | # Commits | Name |
 | --- | --- |
-| | |
-| | |
-| | |
-| | |
+|  |  |
+|  |  |
+|  |  |
+|  |  |
 
 ## GitHub Milestones
 
