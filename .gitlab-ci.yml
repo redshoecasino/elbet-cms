@@ -1,4 +1,3 @@
-image: $CI_REGISTRY_IMAGE
 stages:
   - docker-stage
   - build
@@ -34,15 +33,9 @@ pages:
   stage: build
   tags:
     - amd64
-  script:
-    - mv public/ static/; mv out/ public/
-  variables:
-    GIT_DEPTH: 1
-    DOCKER_TLS_CERTDIR: "/certs"
-    CI: "true"
   cache:
     key: $CI_PROJECT_NAME
-    policy: pull-push
+    policy: pull
     paths:
       - public/
   artifacts:
