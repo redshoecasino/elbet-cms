@@ -1,6 +1,6 @@
 stages:
   - docker-stage
-  - build
+#  - build
 #  - yarn-stage
 #  - test
 
@@ -29,19 +29,19 @@ docker-job:
     refs:
       - master
 
-pages:
-  stage: build
-  tags:
-    - amd64
-  cache:
-    key: $CI_PROJECT_NAME
-    policy: pull
-    paths:
-      - public/
-  artifacts:
-    paths:
-      - public/
-  only:
-    refs:
-      - master
+#pages:
+#  stage: build
+#  tags:
+#    - amd64
+#  cache:
+#    key: $CI_PROJECT_NAME
+#    policy: pull
+#    paths:
+#      - public/
+#  artifacts:
+#    paths:
+#      - public/
+#  only:
+#    refs:
+#      - master
 
